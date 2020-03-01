@@ -23,6 +23,26 @@
         android:textColor="#000"
         />
 
+    <Button
+        android:id="@+id/btn_radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radiobutton"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:id="@+id/btn_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
 
 
 

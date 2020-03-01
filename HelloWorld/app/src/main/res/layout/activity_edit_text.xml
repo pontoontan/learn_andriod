@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="15dp"
     >
 
     <EditText
@@ -12,13 +13,21 @@
         android:textColor="#ccc"
         android:hint="手机号/用户名"
         android:inputType="number"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/bg_username"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/username"
+
 
         />
     <!--
         android:layout_below="@id/et_1": 在第一个图层的下面
         android:hint="密码": 默认字
         android:inputType="textPassword": (密码输入)非明文显示
-
+        android:drawableLeft="@drawable/username": 引入图片
+        android:drawablePadding="5dp": 图片的外边距
      -->
     <EditText
         android:id="@+id/et_2"
@@ -30,6 +39,26 @@
         android:layout_below="@id/et_1"
         android:layout_marginTop="15dp"
         android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/bg_username"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_2"
+        android:text="Login"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background=""
 
         />
 
